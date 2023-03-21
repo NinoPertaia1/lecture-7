@@ -1,0 +1,149 @@
+.myheader{
+    height: 80px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.742380142211914px;
+    font-weight: 400;
+    line-height: 36.99894714355469px;
+    font-style: normal;
+    text-align: center;
+    color: #303134;
+}
+
+.S1{
+    height: 680px;
+    background-image: url("../images/gradient.png"), url("../images/girl.png");
+    background-position: center, center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.S1 h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 78.74051666259766px;
+    font-weight: 400;
+    line-height: 52.95845413208008px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 55px;
+}
+
+.S1 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.s2{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-right: 20px;
+
+}
+
+.div2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.998350143432617px;
+    font-weight: 400;
+    line-height: 36.99618911743164px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+    margin-bottom: 13px;
+}
+
+.div2 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25.9973201751709px;
+    font-weight: 400;
+    line-height: 36.99618911743164px;
+    font-style: normal;
+    text-align: left;
+    color: #1a1a1b;
+    margin-bottom: 45px;
+}
+
+.div2 p{
+    font-family: 'Raleway', sans-serif;   
+    font-size: 15.998350143432617px;
+    font-weight: 500;
+    line-height: 21.997732162475586px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infocard{
+    width:270px ;
+    align-items: left;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.infocard img {
+    width: 100%px;
+    margin-bottom: 15px;
+}
+
+.infocard h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17.998149871826172px;
+    font-weight: 400;
+    line-height: 21.997732162475586px;
+    font-style: normal;
+    text-align: left;
+    color: #1a1a1b;
+    margin-bottom: 15px;
+}
+
+.infocard p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15.998350143432617px;
+    font-weight: 500;
+    line-height: 21.997732162475586px;
+    font-style: normal;
+    text-align: left;
+    color: #8d8d8d;
+}
